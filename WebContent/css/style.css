@@ -95,7 +95,7 @@ ul li {
 }
 
 @media ( max-width :768px) {
-	.navbar-default .navbar-nav .open .dropdown-menu>li>a:hover,
+	.navbar-default .navbar-nav .open .dropdown-menu>li>a:hoer,
 		.dropdown-menu>li>a:hover {
 		color: #FFF !important;
 	}
@@ -109,24 +109,33 @@ body {
 }
 
 #content {
+	
 	margin-left: 15%;
 	margin-right: 15%;
 }
-/*Cố định nội dung trang
-#content {
-    position: fixed;
-    top: 120px;
-    left: 0;
-    bottom: 50px;
-    margin: 0 auto;
-    padding: 20px;
-    text-align: center;
-    overflow: auto;
+
+/**/
+.bodyLogin{
+	text-align: left;
 }
-/*cho ie
-* html #content {
-    height:100%;
-    width:100%;
+.loggin{
+	text-align: left;
+}
+.form1{
+	margin-top: 70px;
+	text-align: left;
+}
+
+.form1>fieldset{
+	text-align: left;
+	display: block;
+	margin-left: 2px;
+	margin-right: 0px;
+	padding-top: 3px;
+	padding-bottom: 6px;
+	padding-left: 10px;
+	padding-right: 10px;
+	border: 2px groove(internal value);
 }
 
 /*------------------------- Footer ------------------------*/
